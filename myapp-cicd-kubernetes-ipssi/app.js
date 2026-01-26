@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.json({
     app: "My App - IPSSI",
     version: `${VERSION} ✅✅`,
-    status: "running",
+    status: "active",
     timestamp: new Date().toISOString(),
     html: `
     <h1>My App - IPSSI</h1>
