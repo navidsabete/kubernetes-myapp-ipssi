@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
     version: `${VERSION} ✅✅`,
     status: "running",
     timestamp: new Date().toISOString(),
-    html : `
+    html: `
     <h1>My App - IPSSI</h1>
     <p>Version: ${VERSION} ✅</p>
     <p>Hello from Argo CD 🚀</p>
