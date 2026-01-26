@@ -1,6 +1,6 @@
 {
   "name": "myapp-cicd-kubernetes-ipssi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Minimal Node app for Argo CD infra",
   "main": "app.js",
   "scripts": {

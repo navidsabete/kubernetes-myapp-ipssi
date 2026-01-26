@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
 
-const VERSION = "v0";
+const VERSION = "v1";
 
 app.get("/", (req, res) => {
   res.send(`
     <h1>My App - IPSSI</h1>
-    <p>Version: ${VERSION}</p>
+    <p>Version: ${VERSION} ✅</p>
     <p>Hello from Argo CD 🚀</p>
   `);
 });
