@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     timestamp: new Date().toISOString(),
     html: `
     <h1>My App - IPSSI</h1>
-    <p>Version: ${VERSION} ✅</p>
+    <p>Version: ${VERSION} ✅✅</p>
     <p>Hello from Argo CD 🚀</p>
   `
   });
