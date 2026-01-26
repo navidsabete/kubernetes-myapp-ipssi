@@ -1,14 +1,20 @@
 const express = require("express");
 const app = express();
 
-const VERSION = "v1";
+const VERSION = "v2";
 
 app.get("/", (req, res) => {
-  res.send(`
+  res.json({
+    app: "My App - IPSSI",
+    version: `${VERSION} ✅✅`,
+    status: "running",
+    timestamp: new Date().toISOString(),
+    html : `
     <h1>My App - IPSSI</h1>
     <p>Version: ${VERSION} ✅</p>
     <p>Hello from Argo CD 🚀</p>
-  `);
+  `
+  });
 });
 
 const PORT = 8081;
